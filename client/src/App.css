@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Kanit', sans-serif;
+}
+
+.navbar-container {
+  background-image: linear-gradient(to right, black , red,  blue, white);
+  display: flex;
+  gap: 2em;
+  padding: 1em 2em;
+}
+
+.navbar-container a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.diak-container,
+.univerzalis-container {
+  margin: auto;
+  padding-bottom: 2em;
+  width: 50%;
+}
+
+.diak-container img {
+  width: 600px;
+}
+
+.diak-container a,
+.univerzalis-container a {
+  color: teal;
+  text-decoration: none;
+}
+
+.univerzalis-container table {
+  border: 1px solid black;
+}
+
+.univerzalis-container table td {
+  border: 1px solid black;
+}
+
+.univerzalis-container table td input {
+  border: 10px;
+  margin: auto;
+}
